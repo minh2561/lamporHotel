@@ -1,0 +1,33 @@
+.guest-details{
+    background-size: cover;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.book{
+    display: flex;
+    justify-content: center;
+}
+.book-yourSelf{
+    border-right: 1px solid black;
+    margin-right: 10px;
+}
+.book-yourSelf a{
+    color: black;
+}
+.book-someOne a{
+    color: #8A8787;
+}
+a{
+    text-decoration: none;
+    color: blue;
+}

@@ -1,0 +1,883 @@
+body {
+    margin: 0px;
+}
+
+.logo {
+    padding: 112px 0 112px 80px;
+    color: white;
+    font-size: 30px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main-content {
+    display: flex;
+}
+
+.menu {
+    width: 20%;
+}
+
+.photo {
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
+
+.main {
+    background-color: #04494A;
+}
+
+.photo1 {
+    display: flex;
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.photo-larger {
+    height: 587px;
+    width: 71%;
+    background-image: url(../asset/images/overview/amenites_hotel.jpg);
+    display: flex;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    background-size: cover;
+}
+
+.photo-small1 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/overview/amenites_pool.jpg);
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.photo-small2 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/amenities/library1.jpg);
+    background-size: cover;
+    /* margin: 5px; */
+}
+
+.photo-small3 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/metting-event/The-Plaza-A-Fairmont-Managed-Hotel-Plaza-Royal-Suite-1260626-scaled.jpg);
+    background-size: cover;
+    margin: 5px;
+    box-sizing: border-box;
+}
+
+.photo-small4 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/amenities/palm2.jpg);
+    background-size: cover;
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+
+.photo-small5 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/accomondation/ambassador2.jpg);
+    background-size: cover;
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+
+.photo-small6 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/amenities/library1.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+
+.photo-small7 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/accomondation/ambassador4.jpg);
+    background-size: cover;
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+
+.photo-small8 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/amenities/library1.jpg);
+    background-size: cover;
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+
+.photo-small9 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/metting-event/The-Plaza-A-Fairmont-Managed-Hotel-Plaza-Royal-Suite-1260626-scaled.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+
+.photo-small10 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/amenities/palm2.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+
+.photo-small11 {
+    height: 288px;
+    width: 100% ;
+    background-image: url(../asset/images/accomondation/ambassador2.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+
+.photo-1_2 {
+    display: flex;
+    flex-direction: column;
+    width: 28%;
+}
+
+.photo2 {
+    display: flex;
+    width: 100%;
+}
+
+.photo3 {
+    display: flex;
+    width: 100%;
+}
+
+.photo3-left {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.photo3-left-bottom {
+    height: 592px;
+    width: 100%;
+    background-image: url(../asset/images/accomondation/Interior-club1.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+
+.photo3-right {
+    display: flex;
+    flex-direction: column;
+    width: 68%;
+}
+
+.photo3-right-top {
+    height: 592px;
+    width: 99%;
+    background-image: url(../asset/images/accomondation/deluxe2.jpg);
+    display: flex;
+    margin: 5px 0 5px 5px;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+.photo3-right-bottom {
+    display: flex;
+    width: 100%;
+}
+
+.photo4-left {
+    width: 60%;
+    height: 592px;
+    background-image: url(../asset/images/accomondation/deluxe2.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+
+.photo4-right {
+    width: 40%;
+    height: 592px;
+    background-image: url(../asset/images/overview/amenites_hotel.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+
+.photo4 {
+    display: flex;
+}
+
+.photo5 {
+    display: flex;
+}
+
+.photo6 {
+    display: flex;
+    /* width: 80%; */
+}
+
+.photo6-left {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-right: 10px;
+}
+
+.photo-medium1 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/accomondation/ambassador4.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+
+.photo-medium2 {
+    height: 288px;
+    width: 100%;
+    background-image: url(../asset/images/amenities/library1.jpg);
+    background-size: cover;
+
+    margin: 5px;
+}
+
+.photo6-right {
+    height: 585px;
+    width: 40%;
+    background-image: url(../asset/images/accomondation/deluxe2.jpg);
+    background-size: cover;
+    margin: 5px;
+}
+
+a.link:hover {
+    text-decoration: underline;
+}
+
+ul li {
+    color: #8A8787;
+    margin-bottom: 32px;
+}
+
+.paginate {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    margin-top: 80px;
+    padding-bottom: 100px;
+}
+
+.pagination1 {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+.pagination {
+    height: 40px;
+    width: 40px;
+    color: #8A8787;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px #8A8787 solid;
+    font-size: 20px;
+}
+
+.pagination-see-more {
+    height: 40px;
+    width: 40px;
+    background-image: url(../asset/images/Icon/see-more.png);
+    background-size: cover;
+}
+
+.custom-select{
+    display: none;
+}
+.paginate-header{
+    display: none;
+}
+h3{
+    display: none;
+}
+.custom-select{
+    margin: 0px;
+}
+.btn-seeMore{
+    display: none;
+}
+@media only screen and (max-width: 1024px) {
+  
+    .menu{
+        display: none;
+    }
+    .custom-select{
+        display: unset;
+    }
+    .btn-select{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 100px;
+    }
+    .photo{
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .photo-larger{
+        width: 55%;
+        height: 288px;
+    }
+    .photo-small1{
+        display: none;
+    }
+    .photo-small2{
+        display: none;
+    }
+    .photo-small3{
+        display: none;
+    }
+    .photo-small4{
+        display: none;
+    }
+    .photo-small5{
+        display: none;
+    }
+    .photo-small6{
+        display: none;
+    }
+    .photo-small7{
+        display: none;
+    }
+    .photo-small8{
+        display: none;
+    }
+    .photo-small9{
+        display: none;
+    }
+    .photo-small10{
+        display: none;
+    }
+    .photo-small11{
+        display: none;
+    }
+    .photo-1_2{
+        background-image: url(../asset/images/accomondation/club3.jpg);
+        background-size: cover;
+        width: 45%;
+        height: 288px;
+    }
+    .photo3-left-bottom{
+        background-image: url(../asset/images/accomondation/executive5.jpg);
+    }
+    .photo3-right-top{
+        background-image: url(../asset/images/accomondation/presidential1.jpg);
+    }
+    .photo4-left{
+        background-image: url(../asset/images/amenities/JKR_159_original.jpg);
+        height: 288px;
+    }
+    .photo4-right{
+        background-image: url(../asset/images/amenities/alto2.jpg);
+        height: 288px;
+    }
+    .photo6{
+        flex-direction: row-reverse;
+    }
+    .photo6-right{
+        background-image: url(../asset/images/overview/seemore.png);
+        height: 592px;
+        width: 55%;
+    }
+    .photo6-left{
+        width: 45%;
+    }
+    .photo-medium1{
+        background-image: url(../asset/images/overview/amenites_event.jpg);
+        
+    }
+    .photo-medium2{
+        background-image: url(../asset/images/metting-event/Meeting_Room_Break_Out_Area_O.jpg);
+    }
+    .photo7{
+        display: flex;
+        margin: 5px;
+    }
+    .photo7-left{
+        height: 288px;
+        width: 40%;
+        margin-right: 10px;
+        background-size: cover;
+        background-image: url(../asset/images/foodandbar/in-room1.jpg);
+    }
+    .photo7-right{
+        height: 288px;
+        width: 60%;
+        background-size: cover;
+        background-image: url(../asset/images/foodandbar/alto11.jpg);
+    }
+    .paginate-header{
+        display: unset;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            margin: 5px;
+            margin-top: 80px;
+    }
+    h3{
+        display: unset;
+        font-size: 24px;
+    }
+    h1{
+        margin-top: 0px;
+        /* word-break: break-all; */
+    }
+    .logo{
+        padding: 50px 0px 50px 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;    
+    }
+
+
+    /* button-select */
+
+
+    details {
+        position: relative;
+        width: 300px;
+        margin-right: 1rem;
+    }
+    
+    details[open] {
+        z-index: 1;
+    }
+    
+    summary {
+        padding: 1rem;
+        cursor: pointer;
+        border-radius: 5px;
+        background-color: #ddd;
+        list-style: none;
+    }
+    
+    summary::-webkit-details-marker {
+        display: none;
+    }
+    
+    details[open] summary:before {
+        content: '';
+        display: block;
+        width: 100vw;
+        height: 100vh;
+        background: transparent;
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+    
+    summary:after {
+        content: '';
+        display: inline-block;
+        float: right;
+        width: .5rem;
+        height: .5rem;
+        border-bottom: 1px solid currentColor;
+        border-left: 1px solid currentColor;
+        border-bottom-left-radius: 2px;
+        transform: rotate(45deg) translate(50%, 0%);
+        transform-origin: center center;
+        transition: transform ease-in-out 100ms
+    }
+    
+    summary:focus {
+        outline: none;
+    }
+    
+    details[open] summary:after {
+        transform: rotate(-45deg) translate(0%, 0%);
+    }
+    
+    ul {
+        width: 100%;
+        background: #ddd;
+        position: absolute;
+        top: calc(100% + .5rem);
+        left: 0;
+        padding: 1rem;
+        margin: 0;
+        box-sizing: border-box;
+        border-radius: 5px;
+        max-height: 200px;
+        overflow-y: auto;
+    }
+    
+    li {
+        margin: 0;
+        padding: 1rem 0;
+        border-bottom: 1px solid #ccc;
+    }
+    
+    li:first-child {
+        padding-top: 0;
+    }
+    
+    li:last-child {
+        padding-bottom: 0;
+        border-bottom: none;
+    }
+    
+
+    
+    summary.radios {
+        counter-reset: radios;
+    }
+    
+    summary.radios:before {
+        content: var(--selection);
+    }
+    
+    input[type=radio] {
+        counter-increment: radios;
+        appearance: none;
+        display: none;
+    }
+    
+    input[type=radio]:checked {
+        display: inline;
+        --display: block;
+    }
+    
+    input[type=radio]:after {
+        content: attr(title);
+        display: inline;
+        font-size: 1rem;
+    }
+    
+    ul.list {
+        counter-reset: labels;
+    }
+    
+    label {
+        width: 100%;
+        display: flex;
+        cursor: pointer;
+        justify-content: space-between;
+    }
+    
+    label span {
+        --display: none;
+        display: var(--display);
+        width: 1rem;
+        height: 1rem;
+        border: 1px solid #727272;
+        border-radius: 3px;
+    }
+
+}
+
+
+@media only screen and (max-width: 375px) {
+    .main {
+        background-color: #EFEEEA;
+    }
+    .logo{
+        color: #04494A;
+    }
+    h1{
+        font-size: 24px;
+    }
+    h3{
+        font-size: 15px;
+    } 
+    .paginate-header{
+        display: none;
+    }
+    .photo{
+        display: none;
+    }
+    .photo-mobile{
+        width: 100%;
+        display: flex;
+    }
+    .photo-mobile-left{
+        width: 50%;
+    }
+    .photo-mobile-small1{
+        width: 100%;
+        height: 120px;
+        background-image: url(../asset/images/accomondation/deluxe2.jpg);
+        background-size: cover;
+    }
+    .photo-mobile-default1{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/accomondation/executive5.jpg);
+    }
+    .photo-mobile-default2{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/amenities/JKR_159_original.jpg);
+    }
+    .photo-mobile-default3{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/overview/seemore.png);
+    }
+    .photo-mobile-default4{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/metting-event/Meeting_Room_Break_Out_Area_O.jpg);
+    }
+    .photo-mobile-default5{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/foodandbar/alto11.jpg);
+    }
+    .photo-mobile-right{
+        width: 50%;
+    }
+    .photo-mobile-default6{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/accomondation/club3.jpg);
+    }
+    .photo-mobile-default7{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/accomondation/presidential1.jpg);
+    }
+    .photo-mobile-default8{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/amenities/alto2.jpg);
+    }
+    .photo-mobile-default9{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/metting-event/meeting.jpg);
+    }
+    .photo-mobile-default10{
+        height: 195px;
+        width: 100%;
+        background-size: cover;
+        background-image: url(../asset/images/foodandbar/in-room1.jpg);
+    }
+    .photo-mobile-small2{
+        width: 100%;
+        height: 120px;
+        background-image: url(../asset/images/foodandbar/mauti-bar3.jpg);
+        background-size: cover;
+    }
+    .default{
+        margin-bottom: 5px;
+    }
+    .photo-mobile-left{
+        margin-right: 5px;
+    }
+    .main-content{
+        flex-direction: column;
+        align-items: center;
+        margin: 5px;
+    }
+
+
+
+/* btn see more */
+.btn-seeMore{
+    display: unset;
+    margin-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.btn-29,
+.btn-29 *,
+.btn-29 :after,
+.btn-29 :before,
+.btn-29:after,
+.btn-29:before {
+  border: 0 solid;
+  box-sizing: border-box;
+}
+.btn-29 {
+  -webkit-tap-highlight-color: transparent;
+  -webkit-appearance: button;
+  background-color: #000;
+  background-image: none;
+  color: #fff;
+  cursor: pointer;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  font-size: 100%;
+  font-weight: 900;
+  line-height: 1.5;
+  margin: 0;
+  -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+  padding: 0;
+  text-transform: uppercase;
+}
+.btn-29:disabled {
+  cursor: default;
+}
+.btn-29:-moz-focusring {
+  outline: auto;
+}
+.btn-29 svg {
+  display: block;
+  vertical-align: middle;
+}
+.btn-29 [hidden] {
+  display: none;
+}
+.btn-29 {
+  --tilt: 30px;
+  border-width: 1px;
+  display: grid;
+  padding: 1.2rem 3rem;
+  place-content: center;
+}
+.btn-29,
+.btn-29 .text-container {
+  overflow: hidden;
+  position: relative;
+}
+.btn-29 .text-container {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.btn-29 .text {
+  display: block;
+  font-weight: 900;
+  mix-blend-mode: difference;
+  position: relative;
+}
+.btn-29:hover .text {
+  -webkit-animation: move-right-alternate 0.3s ease forwards;
+  animation: move-right-alternate 0.3s ease forwards;
+}
+@-webkit-keyframes move-right-alternate {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(80%);
+  }
+  51% {
+    transform: translateX(-80%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+@keyframes move-right-alternate {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(80%);
+  }
+  51% {
+    transform: translateX(-80%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+.btn-29:before {
+  -webkit-animation: move-out 0.3s ease;
+  animation: move-out 0.3s ease;
+  background: #fff;
+  -webkit-clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+  clip-path: polygon(
+    0 0,
+    calc(100% - var(--tilt)) 0,
+    100% 50%,
+    calc(100% - var(--tilt)) 100%,
+    0 100%
+  );
+  content: "";
+  height: 100%;
+  left: calc(-100% - var(--tilt));
+  position: absolute;
+  top: 0;
+  width: calc(100% + var(--tilt));
+}
+.btn-29:hover:before {
+  -webkit-animation: move-in 0.3s ease forwards;
+  animation: move-in 0.3s ease forwards;
+}
+@-webkit-keyframes move-in {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@keyframes move-in {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}
+@-webkit-keyframes move-out {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+@keyframes move-out {
+  0% {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(200%);
+  }
+}
+
+
+
+
+}
+
